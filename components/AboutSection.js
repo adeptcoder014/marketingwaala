@@ -128,7 +128,7 @@ const AboutSection = () => {
         <div className="bg-custom rounded-xl p-5 mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
 
           {serviceList.map(x => (
-            <div className='flex flex-col '>
+            <div key={x} className='flex flex-col '>
               {/* <div> */}
 
               <img
