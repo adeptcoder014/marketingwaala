@@ -34,7 +34,7 @@ const ProjectCard = () => {
 
         <div>
 
-          <h2 className="text-5xl  font-bold mb-2 text-left">Let's discuss your </h2>
+          <h2 className="text-5xl  font-bold mb-2 text-left">Let &apos discuss your </h2>
           <h2 className="text-5xl  font-bold mb-2 text-left">project</h2>
           <p style={{
             width:'75%'

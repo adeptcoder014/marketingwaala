@@ -38,7 +38,7 @@ const Footer = () => {
             <ul className="text-gray-600 space-y-2">
               <li>About</li>
               <li>Careers</li>
-              <li>We're Hiring</li>
+              <li>We &apos Hiring</li>
               <li>Press</li>
               <li>Terms of Service</li>
               <li>Privacy Policy</li>
