@@ -6,6 +6,7 @@ import HeroSection from "@/components/hero";
 import Navbar from "@/components/navbar";
 import Services from "@/components/services";
 // import Image from "next/image";
+import Head from "next/head";
 
 import Footer from "@/components/footer";
 import FooterCard from "@/components/footercard";
