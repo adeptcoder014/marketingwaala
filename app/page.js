@@ -41,7 +41,7 @@ export default function Home() {
         <HeroSection />
         <Services />
         <AboutSection />
-        <body className="App">
+        <div className="App">
       
           <header className="bg-white text-center py-1">
             <div
@@ -58,7 +58,7 @@ export default function Home() {
           {/* <main className="p-4 "> */}
           <Carousel cards={testimonials} />
           {/* </main> */}
-        </body>
+        </div>
       </div>
 
       <FooterCard />
