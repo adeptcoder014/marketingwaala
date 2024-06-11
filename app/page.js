@@ -42,8 +42,7 @@ export default function Home() {
         <Services />
         <AboutSection />
         <body className="App">
-          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JSJSP7F"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      
           <header className="bg-white text-center py-1">
             <div
               className="mt-14 bg-yellow-500 "
