@@ -1,8 +1,4 @@
 import React from 'react';
-// import { ReactComponent as SeoIcon } from '.C:\Users\Sandeep-Sinha\Desktop\Project1\marketingwaala\public\Influencer.PNG'; // Replace with your actual SVG path
-// import { ReactComponent as InfluencerIcon } from './icons/influencer.svg'; // Replace with your actual SVG path
-// import { ReactComponent as MarketingIcon } from './icons/marketing.svg'; // Replace with your actual SVG path
-// import { ReactComponent as SocialMediaIcon } from './icons/socialmedia.svg'; // Replace with your actual SVG path
 
 const Services = () => {
 

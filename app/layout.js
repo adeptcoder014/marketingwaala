@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 
 
         <title>MW</title>
-        <meta name="description" content="MW" />
+        <meta name="description" content="The one stop solution to all the marketing probelms - Marketing Waala" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link rel="icon" href="/favicon.ico" />
