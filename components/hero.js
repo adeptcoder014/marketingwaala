@@ -28,7 +28,7 @@ const HeroSection = () => {
                 We aren &apos t your average, run-of-the-mill website designer—our services pack a serious punch. We are a digital agency for websites that achieve goals.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div
+                {/* <div
                 style={{
                   width:'fit-content',
                   padding:'5px',
@@ -42,7 +42,7 @@ const HeroSection = () => {
                   >
                     Get Started
                   </a>
-                </div>
+                </div> */}
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="#"

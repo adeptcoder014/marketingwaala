@@ -18,10 +18,7 @@ import React from 'react';
 
 const ProjectCard = () => {
   return (
-    <div style={{
-      padding: '50px',
-      display: 'flex'
-    }} >
+      <div className='p-5  bg-[#b0d4d0]' >
 
       <div
       style={{
@@ -29,17 +26,14 @@ const ProjectCard = () => {
         display: 'flex',
         flexDirection:'row'
       }}
-        className="m-auto bg-custom from-blue-100 to-blue-50 rounded-lg p-6 flex flex-col items-center justify-center text-center ">
+        className=" shadow-md m-auto bg-custom from-blue-100 to-blue-50 rounded-lg p-6 flex flex-col items-center justify-center text-center ">
 
 
         <div>
 
-          <h2 className="text-5xl  font-bold mb-2 text-left">Let &apos discuss your </h2>
-          <h2 className="text-5xl  font-bold mb-2 text-left">project</h2>
-          <p style={{
-            width:'75%'
-          }}className="text-gray-600 mb-4 mt-4 text-left ">
-            The essential to combine empathy, creativity and rationality to meet user needs and business success
+        <h2 className=" text-[#4b5563] text-5xl font-bold mb-2 text-left w-full md:w-3/4">Let &#39;s discuss your project</h2>
+        <p className="text-gray-600 mb-4 mt-4 text-left w-full md:w-3/4">
+          The essential to combine empathy, creativity and rationality to meet user needs and business success
           </p>
           <button className="bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition duration-300 flex items-center">
             GET STARTED <span className="ml-2">→</span>
@@ -48,7 +42,7 @@ const ProjectCard = () => {
 
         <div>
 
-          <img src={'bg-footer.png'} />
+          <img src={'bg-footer.png'} className='hidden sm:inline-block' />
         </div>
       </div>
     </div>

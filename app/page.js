@@ -35,7 +35,7 @@ export default function Home() {
 
 
 
-      <div className="p-10 bg-[#b0d4d0]">
+    <div className="md:p-6 p-3  bg-[#b0d4d0]">
 
         <Navbar />
         <HeroSection />
