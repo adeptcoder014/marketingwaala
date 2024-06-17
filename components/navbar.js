@@ -47,7 +47,7 @@ const Navbar = () => {
                                     {servicesDropdownList?.map(x =>
 
 
-                                        <a href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">{x.title}</a>
+                                        <a key={x} href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">{x.title}</a>
                                     )
                                     }
                                 </div>
