@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -6,7 +7,15 @@ const Navbar = () => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
-
+    const servicesDropdownList = [
+        { title: 'Social Media Marketing' },
+        { title: 'Influencer Marketing' },
+        { title: 'Website Development' },
+        { title: 'Perfomance Marketing' },
+        { title: 'SEO Services' },
+        { title: 'Perfomance Marketing' },
+        { title: 'Branding Strategy' },
+    ]
     return (
         <nav className="bg-white shadow-md rounded-md mb-4">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -25,22 +34,29 @@ const Navbar = () => {
                             <div className="relative group">
                                 <button className="text-gray-900">HOME</button>
                             </div>
-                            <div className="relative group">
+                            {/* <div className="relative group">
                                 <button className="text-gray-900">PRICING</button>
                                 <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity">
                                     <a href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Option 1</a>
                                     <a href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Option 2</a>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="relative group">
                                 <button className="text-gray-900">SERVICES</button>
-                                <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity">
-                                    <a href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Option 1</a>
-                                    <a href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Option 2</a>
+                                <div className="absolute z-50  left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                                    {servicesDropdownList?.map(x =>
+
+
+                                        <a href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">{x.title}</a>
+                                    )
+                                    }
                                 </div>
                             </div>
                             <div className="relative group">
-                                <button className="text-gray-900">BLOG</button>
+                                <a href="https://www.blogs.marketingwaala.in/" target="_blank" rel="noopener noreferrer">
+                                    <button className="text-gray-900">BLOG</button>
+
+                                </a>
                             </div>
                             <div className="relative group">
                                 <button className="text-gray-900">ABOUT US</button>
@@ -48,7 +64,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="flex items-center">
-                    <a href="/get-started" className="hidden sm:inline-block ml-4 px-3 py-2 border border-yellow-500 rounded text-yellow-500 hover:bg-yellow-500 hover:text-white transition">GET STARTED</a>
+                        <a href="/get-started" className="hidden sm:inline-block ml-4 px-3 py-2 border border-yellow-500 rounded text-yellow-500 hover:bg-yellow-500 hover:text-white transition">GET STARTED</a>
                     </div>
                     <div className="flex md:hidden items-center">
                         <button onClick={toggleMenu} className="text-gray-900 focus:outline-none">

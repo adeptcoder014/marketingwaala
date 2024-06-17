@@ -62,7 +62,7 @@ const HeroSection = () => {
           src="hero.png"
           alt="Hero"
         />
-        <div className="absolute inset-x-0 top-1/2 transform -translate-y-1/2">
+        {/* <div className="absolute inset-x-0 top-1/2 transform -translate-y-1/2">
           <div className="flex justify-center items-center">
             <div className="bg-white p-4 rounded-lg shadow-lg">
               <p className="text-gray-900 font-semibold">Congrats!</p>
@@ -71,7 +71,7 @@ const HeroSection = () => {
               <p className="text-gray-500 text-sm">1x Gymnocalycium mihanovichii ..</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
