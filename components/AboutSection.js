@@ -1,4 +1,5 @@
 import React from 'react';
+import LearnMoreButton from './button';
 
 const AboutSection = () => {
   return (
@@ -17,9 +18,7 @@ const AboutSection = () => {
             <p className="text-gray-700 mb-6 w-full md:w-3/4">
               Our digital marketing experts have put together thousands of successful digital marketing campaigns for businesses looking to increase leads.
             </p>
-            <a href="#" className="inline-flex items-center px-4 py-2 text-yellow-500 border border-yellow-500 rounded hover:bg-yellow-500 hover:text-white transition">
-              LEARN MORE <span className="ml-2">➔</span>
-            </a>
+            <LearnMoreButton />
           </div>
           <div className="w-full md:w-1/2 lg:w-1/2 mt-6 md:mt-0 p-4 md:p-10">
             <img src="hero1.png" alt="Service Image" className="rounded-lg shadow-lg mx-auto" />

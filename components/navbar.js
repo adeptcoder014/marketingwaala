@@ -8,13 +8,14 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
     const servicesDropdownList = [
-        { title: 'Social Media Marketing' },
-        { title: 'Influencer Marketing' },
-        { title: 'Website Development' },
-        { title: 'Perfomance Marketing' },
-        { title: 'SEO Services' },
-        { title: 'Perfomance Marketing' },
-        { title: 'Branding Strategy' },
+        { title: 'Social Media Marketing', link: 'social-media-marketing' },
+        { title: 'Influencer Marketing', link: 'influencer-marketing' },
+        { title: 'Website Development', link: 'website-development' },
+        { title: 'Perfomance Marketing', link: 'performance-marketing' },
+        { title: 'SEO Services', link: 'seo-services' },
+        { title: 'Perfomance Marketing', link: 'performance-marketing' },
+        { title: 'Branding Strategy', link: 'branding-strategy' },
+        { title: 'Link', link: 'link' },
     ]
     return (
         <nav className="bg-white shadow-md rounded-md mb-4">
@@ -47,7 +48,7 @@ const Navbar = () => {
                                     {servicesDropdownList?.map(x =>
 
 
-                                        <a key={x} href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">{x.title}</a>
+                                        <a key={x.link} href={x.link}z className="block px-4 py-2 text-gray-900 hover:bg-gray-200">{x.title}</a>
                                     )
                                     }
                                 </div>

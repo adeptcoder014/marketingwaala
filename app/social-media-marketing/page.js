@@ -10,7 +10,7 @@ import Services from "@/components/services";
 import Footer from "@/components/footer";
 import FooterCard from "@/components/footercard";
 
-export default function Home() {
+export default function SocialMediaMarketing() {
   const testimonials = [
     {
       testimonial: 'This is my first time working with a marketing company and I had a fantastic experience. Business is doing better than ever and I am very grateful for Toolaf. Highly recommend!',
@@ -38,12 +38,10 @@ export default function Home() {
       <div className="md:p-6 p-3  bg-[#b0d4d0]">
 
         <Navbar />
-        {/* <HeroSection /> */}
         <HeroSection
-          title={'Grow faster with our all-in-one marketing platform'}
+          title={'Boost Your Growth with Our All-in-One Social Media Marketing Platform'}
           description={'We aren &apos t your average, run-of-the-mill website designer—our services pack a serious punch. We are a digital agency for websites that achieve goals.'}
-          image={'home/heroBanner.png'}
-
+          image={'socialMedia/sm2.png'}
         />
         <Services />
         <AboutSection />
