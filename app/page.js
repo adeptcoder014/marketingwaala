@@ -9,26 +9,11 @@ import Services from "@/components/services";
 
 import Footer from "@/components/footer";
 import FooterCard from "@/components/footercard";
+import Testimonials from "@/components/testimonials";
+import Section from "@/components/section";
 
 export default function Home() {
-  const testimonials = [
-    {
-      testimonial: 'This is my first time working with a marketing company and I had a fantastic experience. Business is doing better than ever and I am very grateful for Toolaf. Highly recommend!',
-      author: 'Pavel Solomin',
-      position: 'Founder Net ABC',
-    },
-    {
-      testimonial: 'This is my first time working with a marketing xxx grateful for Toolaf. Highly recommend!',
-      author: 'Pavel Solomin',
-      position: 'Founder Net ABC',
-    },
-    {
-      testimonial: 'This is my first time working with a marketing company and I had a fantastic experience',
-      author: 'Pavel Solomin',
-      position: 'Founder Net ABC',
-    },
-    // Add more testimonials as needed
-  ];
+
   return (
     <>
 
@@ -40,31 +25,43 @@ export default function Home() {
         <Navbar />
         {/* <HeroSection /> */}
         <HeroSection
-          title={'Grow faster with our all-in-one marketing platform'}
-          description={'We aren &apos t your average, run-of-the-mill website designer—our services pack a serious punch. We are a digital agency for websites that achieve goals.'}
+          title={'Welcome to Marketingwaala – Your Trusted Digital Marketing Partner'}
+          description={'Meet our team! From the savvy corporate professional to the traditional Indian shopkeeper, we understand the unique needs of every business. Whether you’re new to online marketing or looking to scale your digital presence, Marketingwaala is here to guide you through the journey of digital transformation.'}
           image={'home/heroBanner.png'}
+          color={'bg-gradient-to-r from-[#f4e7d7] to-[#f4e7d7]'}
+          tagContent={'Why Digital Marketing is Essential for Your Business'}
+          tagColor={'bg-white'}
 
         />
-        <Services />
-        <AboutSection />
-        <div className="App">
+        {/* <Services /> */}
 
-          <header className="bg-white text-center py-1">
-            <div
-              className="mt-14 bg-yellow-500 "
-              style={{
-                width: 'fit-content',
-                padding: '5px',
-                borderRadius: '15px',
-                margin: 'auto'
-              }}>
-              <p className="text-gray-700 font-bold text-sm">Our Testimonials</p>
-            </div>
-          </header>
-          {/* <main className="p-4 "> */}
-          <Carousel cards={testimonials} />
-          {/* </main> */}
-        </div>
+
+        <Section
+          title={'Discover the Power of Digital Marketing with Marketingwaala'}
+          description={'Digital marketing is more than just a buzzword. It’s the key to growing your business in the modern world. From SEO optimization and branding strategies to influencer marketing and website development, our corporate professional explains how leveraging digital tools can take your business to the next level. Let us help you build a powerful online presence that drives traffic, increases engagement, and boosts sales.'}
+          image={'home/middle.webp'}
+          tagContent={'Why Digital Marketing is Essential for Your Business'}
+          tagColor={'bg-yellow-500'}
+
+        />
+
+        <Section
+          title={'From Traditional to Digital – Transform Your Business with Marketingwaala'}
+          description={'See the transformation! Watch as our shopkeeper moves from old-school advertising to a fully digital marketing strategy. With services like SEO, influencer marketing, branding, and website development, Marketingwaala provides everything you need to make your business thrive in the digital era. Embrace the future and stay ahead of the competition with us.'}
+          image={'home/end.png'}
+          sectionVisible={true}
+          imageAlign={'right'}
+          tagContent={'Transitioning from Traditional to Digital Marketing'}
+          tagColor={'bg-yellow-500'}
+
+
+        />
+
+
+
+
+        {/* <AboutSection /> */}
+        <Testimonials />
       </div>
 
       <FooterCard />

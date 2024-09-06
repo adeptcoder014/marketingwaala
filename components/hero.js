@@ -2,10 +2,17 @@ import React from 'react';
 import Tag from './tag';
 import LearnMoreButton from './button';
 
-const HeroSection = ({ title, description, image }) => {
+const HeroSection = ({
+  title,
+  description,
+  image,
+  color,
+  tagContent,
+  tagColor
+}) => {
   return (
     <div
-      className="shadow-md flex flex-col md:flex-row p-4 sm:p-1 lg:p-10   bg-gradient-to-r from-[#b0d4d0] to-[#f2e9d8] rounded-md"
+      className={`shadow-md flex flex-col md:flex-row p-4 sm:p-1    ${color} rounded-md`}
     // style={{
     //   borderRadius: '0px'
     // }}
@@ -14,15 +21,15 @@ const HeroSection = ({ title, description, image }) => {
       {/* <div className="relative z-10 pb-8 bg-[yellow] sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"> */}
       <main className="align-middle m-auto">
 
-        <div className="lg:p-24 bg-[#f2e9d8] bg-gradient-to-r from-[#b0d4d0] to-[#f2e9d8]">
+        <div className={`lg:p-24 ${color}`}>
           <Tag
-            tag={'OUR SERVICES'}
-            color={'bg-white'}
+            tag={tagContent}
+            color={tagColor}
 
           />
           <h1 className="text-4xl font-extrabold text-gray-900">{title}</h1>
 
-          <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+          <p className="mt-3 text-base text-[#41618c] sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 lg:text-md">
             {description}
           </p>
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -50,11 +57,13 @@ const HeroSection = ({ title, description, image }) => {
 
 
       <div
+        className={`align-middle m-auto bg-[#51ae95]`}
       // className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"
       // className=" sm:mt-5"
       >
         <img
           // className=" sm: mt-5"
+          // width={1150}
           src={image}
           alt="Hero"
         />

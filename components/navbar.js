@@ -11,11 +11,8 @@ const Navbar = () => {
         { title: 'Social Media Marketing', link: 'social-media-marketing' },
         { title: 'Influencer Marketing', link: 'influencer-marketing' },
         { title: 'Website Development', link: 'website-development' },
-        { title: 'Perfomance Marketing', link: 'performance-marketing' },
         { title: 'SEO Services', link: 'seo-services' },
-        { title: 'Perfomance Marketing', link: 'performance-marketing' },
         { title: 'Branding Strategy', link: 'branding-strategy' },
-        { title: 'Link', link: 'link' },
     ]
     return (
         <nav className="bg-white shadow-md rounded-md mb-4">
