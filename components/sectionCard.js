@@ -10,7 +10,7 @@ const SectionCard = ({
         { title: "SEO Strategy", icon: 'icons/Seo Strategy' },
         { title: "Influencer Marketing", icon: 'icons/Influencer' },
         { title: "Marketing Strategy", icon: 'icons/Marketing' },
-        { title: "Social Media Marketing", icon: 'icons/Social Media' },
+        { title: "Social Media Marketing", icon: 'icons/Social media' },
     ];
 
     return (
