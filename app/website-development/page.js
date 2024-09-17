@@ -29,7 +29,7 @@ export default function InfluencerMarketing() {
           description={'Enhance your business with custom website development using Shopify, React, Node.js, and Python. Boost user experience and drive online success.'}
           image={'websiteDev/hero.webp'}
           tagContent={'Professional Website Development'}
-          tagColor={'bg-white'}
+          tagColor={'bg-[#b88929]'}
         />
         {/* <Services
           title={'Boost Your Growth with Our All-in-One Social Media Marketing Platform'}
@@ -41,7 +41,7 @@ export default function InfluencerMarketing() {
           description={'Develop fast, responsive, and SEO-friendly websites that improve search engine ranking and provide a seamless user experience across all devices.'}
           image={'websiteDev/middle.png'}
           tagContent={'  Responsive and SEO-Optimized Websites'}
-          tagColor={'bg-yellow-400'}
+          tagColor={'bg-[#b88929]'}
         />
         <Section
           title={'Grow Your Business with Scalable Website Solutions'}
@@ -49,7 +49,7 @@ export default function InfluencerMarketing() {
           image={'websiteDev/subMiddle.webp'}
           imageAlign={'right'}
           tagContent={' Website Development for Business Growth'}
-          tagColor={'bg-yellow-400'}
+          tagColor={'bg-[#b88929]'}
         />
         {/* <AboutSection /> */}
         {/* <Section

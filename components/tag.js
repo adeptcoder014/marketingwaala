@@ -10,7 +10,7 @@ const Tag = ({ tag, color }) => {
             style={{
                 width: 'fit-content',
 
-                borderRadius: '15px'
+                borderRadius: '10px'
             }}
         >
             <span className="text-gray   text-sm">{tag}</span>

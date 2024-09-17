@@ -29,7 +29,7 @@ export default function SocialMediaMarketing() {
           image={'socialMedia/hero.png'}
           color={'bg-gradient-to-r from-[#ba9c68] to-[#faebc0]'}
           tagContent={'Social Media Reach'}
-          tagColor={'bg-white'}
+          tagColor={'bg-[#b88929]'}
         />
         {/* <Services
           title={'Boost Your Growth with Our All-in-One Social Media Marketing Platform'}
@@ -40,8 +40,8 @@ export default function SocialMediaMarketing() {
           title={'Boost Your Growth with Our All-in-One Social Media Marketing Platform'}
           description={'Leverage free advertising tools on platforms like Instagram, Facebook, and YouTube to drive website traffic, improve brand awareness, and enhance customer engagement.'}
           image={'socialMedia/middle.png'}
-          tagContent={'SFree Social Media Marketing Tools for Growth'}
-          tagColor={'bg-yellow-400'}
+          tagContent={'Free Social Media Marketing Tools for Growth'}
+          tagColor={'bg-[#b88929]'}
         />
         {/* <AboutSection /> */}
         <Section
@@ -49,7 +49,7 @@ export default function SocialMediaMarketing() {
           description={'Use Facebook, Instagram, and YouTube to implement proven social media strategies that increase brand loyalty, attract customers, and drive profits.'}
           image={'socialMedia/end.png'}
           tagContent={' Social Media Success for Increased Profits'}
-          tagColor={'bg-yellow-400'}
+          tagColor={'bg-[#b88929]'}
           sectionVisible={true}
           imageAlign={'right'}
 

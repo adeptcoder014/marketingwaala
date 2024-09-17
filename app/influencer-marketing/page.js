@@ -28,7 +28,7 @@ export default function InfluencerMarketing() {
           description={'Leverage Instagram, YouTube, and TikTok influencers to enhance brand visibility, drive audience engagement, and increase online presence.'}
           image={'influnencerMar/hero.png'}
           tagContent={'Power of Influencer Marketing'}
-          tagColor={'bg-white'}
+          tagColor={'bg-[#b88929]'}
         />
         {/* <Services
           title={'Boost Your Growth with Our All-in-One Social Media Marketing Platform'}
@@ -40,7 +40,7 @@ export default function InfluencerMarketing() {
           description={'Collaborate with top influencers to create authentic content, reach your target audience, and improve customer engagement. Use Instagram and YouTube for impactful influencer marketing.'}
           image={'influnencerMar/middle.png'}
           tagContent={' Influencer Partnerships for Business Growth'}
-          tagColor={'bg-yellow-400'}
+          tagColor={'bg-[#b88929]'}
         />
         {/* <AboutSection /> */}
         <Section
@@ -50,7 +50,7 @@ export default function InfluencerMarketing() {
           sectionVisible={true}
           imageAlign={'right'}
           tagContent={'  Achieving Success with Influencer Marketing'}
-          tagColor={'bg-yellow-400'}
+          tagColor={'bg-[#b88929]'}
         />
 
       </div>

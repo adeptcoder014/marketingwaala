@@ -29,7 +29,7 @@ export default function InfluencerMarketing() {
           image={'seoMarketing/hero.webp'}
           color={'bg-gradient-to-r from-[#b0d4d0] to-[#51ae95]'}
           tagContent={'SEO Services'}
-          tagColor={'bg-white'}
+          tagColor={'bg-[#b88929]'}
         />
         
         {/* <Services
@@ -42,7 +42,7 @@ export default function InfluencerMarketing() {
           description={' On-page SEO is crucial for improving your websites search engine rankings and attracting more visitors. By focusing on optimizing website content, you ensure that your site is both user-friendly and search-engine-friendly.'}
           image={'seoMarketing/middle.webp'}
           tagContent={'SEO Services'}
-          tagColor={'bg-yellow-400'}
+          tagColor={'bg-[#b88929]'}
         />
         {/* <AboutSection /> */}
         <Section
@@ -52,7 +52,7 @@ export default function InfluencerMarketing() {
           sectionVisible={true}
           imageAlign={'right'}
           tagContent={'SEO Services'}
-          tagColor={'bg-yellow-400'}
+          tagColor={'bg-[#b88929]'}
 
         />
          <Section
@@ -61,7 +61,7 @@ export default function InfluencerMarketing() {
           image={'seoMarketing/end.webp'}
           sectionVisible={true}
           tagContent={'SEO Services'}
-          tagColor={'bg-yellow-400'}
+          tagColor={'bg-[#b88929]'}
 
         />
 

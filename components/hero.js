@@ -21,7 +21,7 @@ const HeroSection = ({
       {/* <div className="relative z-10 pb-8 bg-[yellow] sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"> */}
       <main className="align-middle m-auto">
 
-        <div className={`lg:p-24 ${color}`}>
+        <div className={`lg:p-24 `}>
           <Tag
             tag={tagContent}
             color={tagColor}

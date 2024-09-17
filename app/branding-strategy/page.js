@@ -28,7 +28,7 @@ export default function InfluencerMarketing() {
           description={'Effective branding is crucial for establishing your business’s identity and market presence. It’s not just about logos and colors but about creating a compelling brand story and positioning your business strategically to stand out and connect with your target audience.'}
           image={'branding/hero.webp'}
           tagContent={'Branding Strategy'}
-          tagColor={'bg-white'}
+          tagColor={'bg-[#b88929]'}
 
         />
         {/* <Services
@@ -41,7 +41,7 @@ export default function InfluencerMarketing() {
           description={' Building a strong brand identity involves crafting a memorable logo, selecting impactful brand colors, and developing clear brand messaging. These elements are essential for effective brand identity design, driving customer engagement, and fostering brand loyalty.'}
           image={'branding/middle.webp'}
           tagContent={'SEO Services'}
-          tagColor={'bg-yellow-400'}
+          tagColor={'bg-[#b88929]'}
 
         />
         {/* <AboutSection /> */}
@@ -52,7 +52,7 @@ export default function InfluencerMarketing() {
           sectionVisible={true}
           imageAlign={'right'}
           tagContent={'SEO Services'}
-          tagColor={'bg-yellow-400'}
+          tagColor={'bg-[#b88929]'}
 
 
         />

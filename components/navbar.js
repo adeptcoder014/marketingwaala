@@ -30,7 +30,7 @@ const Navbar = () => {
                         </div>
                         <div className="hidden md:flex space-x-8 ml-10 items-center">
                             <div className="relative group">
-                                <button className="text-gray-900">HOME</button>
+                            <a href="https://www.marketingwaala.in" className="text-gray-900">HOME</a>
                             </div>
                             {/* <div className="relative group">
                                 <button className="text-gray-900">PRICING</button>

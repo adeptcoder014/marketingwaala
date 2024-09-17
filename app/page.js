@@ -30,7 +30,7 @@ export default function Home() {
           image={'home/heroBanner.png'}
           color={'bg-gradient-to-r from-[#f4e7d7] to-[#f4e7d7]'}
           tagContent={'Why Digital Marketing is Essential for Your Business'}
-          tagColor={'bg-white'}
+          tagColor={'bg-[#b88929]'}
 
         />
         {/* <Services /> */}
@@ -40,8 +40,8 @@ export default function Home() {
           title={'Discover the Power of Digital Marketing with Marketingwaala'}
           description={'Digital marketing is more than just a buzzword. It’s the key to growing your business in the modern world. From SEO optimization and branding strategies to influencer marketing and website development, our corporate professional explains how leveraging digital tools can take your business to the next level. Let us help you build a powerful online presence that drives traffic, increases engagement, and boosts sales.'}
           image={'home/middle.webp'}
-          tagContent={'Why Digital Marketing is Essential for Your Business'}
-          tagColor={'bg-yellow-500'}
+          tagContent={"Unlock Your Business's Full Potential"}
+          tagColor={'bg-[#b88929]'}
 
         />
 
@@ -52,7 +52,7 @@ export default function Home() {
           sectionVisible={true}
           imageAlign={'right'}
           tagContent={'Transitioning from Traditional to Digital Marketing'}
-          tagColor={'bg-yellow-500'}
+          tagColor={'bg-[#b88929]'}
 
 
         />

@@ -16,7 +16,7 @@ const Section = ({
     return (
         <section className="py-12 bg-white mt-1">
             <div className="container mx-auto px-4 ">
-                <div className=" flex flex-col md:flex-row items-center md:justify-between lg:p-10">
+                <div className=" flex flex-col md:flex-row items-left md:justify-between lg:p-10">
 
                     {imageAlign == "right" ? (
                         <>
