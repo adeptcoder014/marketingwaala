@@ -53,7 +53,7 @@ const MarketingForm = () => {
         onSubmit={handleSubmit}
         className="bg-white shadow-md rounded-lg p-6"
       >
-        <h2 className="text-xl font-bold mb-4">I'm Interested In</h2>
+        <h2 className="text-xl font-bold mb-4">I am Interested In</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {interestsOptions.map((interest, index) => (
             <label key={index} className="flex items-center space-x-2">
