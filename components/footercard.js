@@ -36,7 +36,7 @@ const ProjectCard = () => {
           The essential to combine empathy, creativity and rationality to meet user needs and business success
           </p>
           <button className="bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition duration-300 flex items-center">
-            GET STARTED <span className="ml-2">→</span>
+          <a href="/get-started" GET STARTED  className="ml-2">GET STARTED</a>
           </button>
         </div>
 

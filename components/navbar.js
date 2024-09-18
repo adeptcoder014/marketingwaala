@@ -79,17 +79,11 @@ const Navbar = () => {
                         <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900">HOME</a>
                         <div className="relative group">
                             <button className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 w-full text-left">PRICING</button>
-                            <div className="mt-2 w-full bg-white rounded-md shadow-lg">
-                                <a href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Option 1</a>
-                                <a href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Option 2</a>
-                            </div>
+                   
                         </div>
                         <div className="relative group">
                             <button className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 w-full text-left">SERVICES</button>
-                            <div className="mt-2 w-full bg-white rounded-md shadow-lg">
-                                <a href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Option 1</a>
-                                <a href="#" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Option 2</a>
-                            </div>
+                      
                         </div>
                         <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900">BLOG</a>
                         <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900">ABOUT US</a>
