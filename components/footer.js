@@ -30,7 +30,8 @@ const Footer = () => {
             </button>
           </div>
           <p className="mt-4 text-gray-600">Best sales management tool to boost your business.</p>
-          <p className="mt-2 text-yellow-500 font-bold">marketingwaala369@gmail.com</p>
+          <p className="mt-2 text-gray-600 font-bold">marketingwaala369@gmail.com</p>
+          <p className="mt-2 text-gray-600 font-bold">Contact: 7392988369, 9044859280</p>
         </div>
         <div className="grid grid-cols-2 gap-8 md:flex md:space-x-12">
           <div>

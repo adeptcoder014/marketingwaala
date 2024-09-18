@@ -2,7 +2,7 @@ import React from 'react';
 import Tag from './tag';
 import LearnMoreButton from './button';
 
-const HeroSection = ({
+const ContactusHero = ({
   title,
   description,
   image,
@@ -21,13 +21,9 @@ const HeroSection = ({
       {/* <div className="relative z-10 pb-8 bg-[yellow] sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"> */}
       <main className="align-middle m-auto">
 
-        <div className={`lg:p-24 `}>
-          <Tag
-            tag={tagContent}
-            color={tagColor}
-
-          />
-          <h1 className="text-4xl font-extrabold text-gray-900 ">{title}</h1>
+        <div className={`lg:p-24 lg:pt-0`}>
+    
+          <h1 className="text-4xl font-extrabold text-gray-900 max-w-3xl ">{title}</h1>
 
           <p className="mt-3 text-base text-[#41618c] sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 lg:text-md">
             {description}
@@ -48,7 +44,8 @@ const HeroSection = ({
                     Get Started
                   </a>
                 </div> */}
-            <LearnMoreButton />
+            <LearnMoreButton  href="#contact-form" />
+            {/* <div >hello</div> */}
           </div>
         </div>
       </main>
@@ -73,4 +70,4 @@ const HeroSection = ({
   );
 }
 
-export default HeroSection;
+export default ContactusHero;

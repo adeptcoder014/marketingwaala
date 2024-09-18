@@ -16,10 +16,27 @@ export async function getServerSideProps({ res }) {
       <url>
         <loc>https://www.blogs.marketingwaala.in/</loc>
       </url>
-   <url>
+      <url>
         <loc>https://www.blogs.marketingwaala.in/digital-marketing</loc>
       </url>
-     
+      <url>
+        <loc>https://www.marketingwaala.in/get-started</loc>
+      </url>
+      <url>
+        <loc>https://www.marketingwaala.in/social-media-marketing</loc>
+      </url>
+      <url>
+        <loc>https://www.marketingwaala.in/influencer-marketing</loc>
+      </url>
+      <url>
+        <loc>https://www.marketingwaala.in/website-development</loc>
+      </url>
+      <url>
+        <loc>https://www.marketingwaala.in/seo-services</loc>
+      </url>
+      <url>
+        <loc>https://www.marketingwaala.in/branding-strategy</loc>
+      </url>
     </urlset>
   `
 
